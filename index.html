@@ -1,19 +1,17 @@
-:root {
-  --background-primary: #fff;
-  --color-primary: #333;
-}
-
-html[data-theme='dark'] {
-  --background-primary: #030303;
-  --color-primary: #ccc;
-}
-
-html {
-  transition: color 300ms, background-color 300ms;
-  background: var(--background-primary);
-  color: var(--color-primary);
-}
-
-h1, h2, p {
-  color: var(--color-primary);
-}
+<html>
+  <body>
+    <h1>Hello World</h1>
+    <h2>Welcome to my Dark Mode Test</h2>
+    <p>
+      Here is some text to convert to dark mode
+    </p>
+    
+    <img alt="test" src="https://livecodestream.dev/featured.png" width="100px" />
+    
+    <br />
+    
+    <button onclick="toggleTheme('dark');">Dark</button>
+    
+    <button onclick="toggleTheme('light');">Light Mode</button>
+  </body>
+</html>
